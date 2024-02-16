@@ -87,6 +87,7 @@ a {
 
 .socials .bi {
   margin-right: 0.8rem;
+  cursor: pointer;
 }
 
 .common-header {
@@ -105,7 +106,9 @@ a {
   position: absolute;
   background-color: #11c1e0;
 }
-
+/* .two p{
+    margin-top:3rem;
+} */
 /* HERO SECTION */
 
 .section-hero {
@@ -136,6 +139,7 @@ a {
 .about-info {
   max-width: 130rem;
   margin: 0 auto;
+  margin-bottom: 10rem;;
 }
 .info-text {
   text-align: center;
@@ -149,9 +153,9 @@ a {
   width: 30%;
 }
 
-/* .two p {
-  margin-top: 2rem;
-} */
+.two p {
+  margin-bottom: 2rem;
+}
 .info-text .two {
   width: 40%;
 }
@@ -168,3 +172,108 @@ a {
 }
 
 /* skills */
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.services-skills {
+  /* background-color: rgb(86, 167, 167); */
+  width: 130rem;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+}
+
+.container-card {
+  width: 95%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  height: 100%;;
+}
+
+.content img {
+  height: 15rem;
+}
+
+.container-card .card {
+  position: relative;
+}
+
+.container-card .card .card-front {
+  width: 30rem;
+  height: 20rem;
+  transition: 0.5s;
+}
+
+.container-card .card .card-front.front {
+  position: relative;
+  background-color: rgb(233, 223, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(10rem);
+}
+
+.container-card .card .card-front.front .content {
+  /* opacity: 0.2; */
+  transition: 0.5s;
+}
+
+.container-card .card:hover .card-front.front {
+  transform: translateX(0);
+  background-color: #11c1e0;
+}
+
+/* .container-card .card:hover .card-front.front .content {
+  opacity: 1;
+} */
+
+/* .container-card .card .card-front.front .content img {
+  max-width: 100rem;
+} */
+
+.container-card .card .card-front.front .content h3 {
+  margin: 1rem 0 1rem;
+  /* color: #742c2c; */
+  text-align: center;
+}
+
+/* .container-card .card .card-front.back .content p {
+  margin-top: 2rem;
+} */
+
+.container-card .card .card-front.back {
+  position: relative;
+  background-color: #c7dde1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: translateY(-10rem);
+}
+
+.container-card .card:hover .card-front.back {
+  transform: translateY(0rem);
+}
+
+.container-card .card .card-front .content a {
+  margin: 2rem 0 0;
+
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem;
+  background-color: #11c1e0;
+}
+
+.container-card .card .card-front.back .content a:hover {
+  background-color:bisque;
