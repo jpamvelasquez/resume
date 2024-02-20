@@ -190,6 +190,9 @@ a {
 } */
 
 /* skills */
+/* #services {
+  background-color: rgb(246, 243, 241);
+} */
 .title {
   display: flex;
   justify-content: center;
@@ -487,6 +490,9 @@ span {
   border-radius: 0.6rem;
   background-color: rgb(210, 231, 237);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.text-box h2 {
+  font-size: 2rem;
 }
 
 .left {
