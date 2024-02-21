@@ -105,7 +105,7 @@ a {
 
 .common-header {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   /* border: 1px solid black; */
   display: inline-block;
 }
@@ -126,7 +126,7 @@ a {
 /* HERO SECTION */
 
 .section-hero {
-  height: 50vh;
+  height: 45vh;
   background-color: rgb(210, 231, 237);
 }
 
@@ -150,6 +150,11 @@ a {
 }
 
 /* about me */
+
+.about-me {
+  font-size: 2rem;
+  font-family: "Quicksand";
+}
 .about-info {
   max-width: 110rem;
   margin: 0 auto;
@@ -183,7 +188,7 @@ a {
   justify-content: space-around;
   text-align: center;
   /* margin: 3rem; */
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 /* .about-items:nth-child(2) {
   padding: 2rem;
@@ -193,6 +198,35 @@ a {
 /* #services {
   background-color: rgb(246, 243, 241);
 } */
+
+.about-items div i {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: inline-block;
+  /* border: 2px solid rgb(104, 111, 118); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #070819;
+  background-color: #11c1e0;
+}
+
+.icon-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.about-items div .bi {
+  font-size: 2rem;
+}
+.whatido {
+  text-align: center;
+}
+.img-text-info {
+  padding: 0 1.5rem;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -298,13 +332,21 @@ a {
   margin: 2rem 0 0;
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #120202;
   padding: 0.5rem;
   background-color: #11c1e0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: 0.5s;
 }
 
 .container-card .card .card-front.back .content a:hover {
-  background-color: bisque;
+  background-color: rgb(42, 142, 184);
+  /* scale: 1.1; */
+  font-size: large;
+  color: #c7dde1;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 /* footer */
