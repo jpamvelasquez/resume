@@ -14,13 +14,13 @@ body {
   font-family: "Quicksand", sans-serif;
   font-size: 1.8rem;
 }
-.nav-sticky {
+/* .nav-sticky {
   background-color: rgb(246, 243, 241);
   position: fixed;
   width: 100%;
   z-index: 10;
   top: 0;
-}
+} */
 header {
   background-color: rgb(246, 243, 241);
 }
@@ -135,7 +135,7 @@ a {
 .section-hero {
   height: 45vh;
   background-color: rgb(210, 231, 237);
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
 }
 
 .hero-info {
