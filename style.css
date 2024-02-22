@@ -133,7 +133,7 @@ a {
 /* HERO SECTION */
 
 .section-hero {
-  height: 45vh;
+  height: 60vh;
   background-color: rgb(210, 231, 237);
   /* margin-top: 10rem; */
 }
@@ -360,7 +360,7 @@ a {
 /* footer */
 
 footer {
-  height: 40vh;
+  height: 50vh;
   background-color: rgb(246, 243, 241);
 }
 .footer {
@@ -627,7 +627,7 @@ span {
   /* background-color: #11c1e0; */
   display: flex;
   justify-content: space-around;
-  height: 35vh;
+  height: 50vh;
   /* padding: 2rem; */
 }
 
@@ -715,7 +715,7 @@ form {
   border-bottom: 1px solid black;
 } */
 #contact {
-  margin: 6rem 0 8rem;
+  margin: 12rem 0 12rem;
 }
 
 .read-more {
@@ -730,7 +730,7 @@ form {
 
 /* education */
 .education {
-  margin: 3rem 0;
+  margin: 6rem 0;
 }
 
 .container-education {
